@@ -1,0 +1,215 @@
+/**left side */
+
+.insights {
+    padding-left: 20%;
+    padding-right: 3%;
+}
+
+.insights .leftside {
+    background: #438FFE;
+    box-shadow: 0px 20px 101px rgba(148, 148, 148, 0.25);
+    border-radius: 14px;
+    padding: 30px 20px !important;
+}
+
+.insights .leftside {
+    height: 80%;
+}
+
+.insights .leftside img {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin-top: 60%;
+}
+
+.insights .leftside .car h3 {
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.insights .leftside .car h6 {
+    color: #C6DCFC;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+/**right */
+
+
+/**first */
+
+.insights .first {
+    overflow: hidden;
+}
+
+.first .card {
+    height: 200px;
+}
+
+.insights .first img {
+    width: 110%;
+    margin-left: -50px;
+    height: 90%;
+}
+
+.insights .first span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 75%;
+    color: #A4A5A6;
+}
+
+
+/**second */
+
+.insights .second .cont .image {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 44px;
+    height: 44px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(147, 144, 144, 0.2);
+    border-radius: 30px;
+}
+
+.insights .second .cont .image img {
+    width: 15px;
+    height: 15px;
+    margin-left: 15%;
+}
+
+.insights .second h5 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #242731;
+}
+
+.insights .second .cont h4 {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.insights .second .cont h5 {
+    font-size: 11px;
+    font-weight: 400;
+    color: #72767C;
+}
+
+.insights .second .cont button.complete {
+    background: #70CF97;
+    color: #fff;
+    padding: 5px 7px !important;
+    text-transform: uppercase;
+}
+
+.insights .second .cont button {
+    background: #ECEEF0;
+    padding: 5px 7px !important;
+}
+
+.insights .second .imgCard {
+    width: 20%;
+    height: 30%;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.insights .second h1.card-title {
+    font-size: 18px;
+}
+
+.insights .second .imgCard img {
+    width: 100%;
+    height: 100%;
+}
+
+.insights .second h2 {
+    font-size: 12px;
+    color: #72767C;
+    line-height: 2;
+}
+
+.insights .second .in {
+    display: inherit;
+}
+
+.insights .second .bord {
+    border-bottom-color: #F3F3F3;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding-bottom: 15px;
+}
+
+.insights .second .cololred {
+    font-size: 13px;
+    color: #D43B3B;
+    margin-bottom: 20px;
+}
+
+.insights .second .cololred .form-check-input:checked {
+    background: #FF6370;
+    border-radius: 3px;
+    border: none;
+    accent-color: #fff;
+}
+
+.insights .second .btn.color {
+    background: #FF6370;
+    color: #fff;
+    padding: 7px 10px !important;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+/**third**/
+
+.insights .third .card {
+    height: 80%;
+}
+
+.insights .third .add {
+    padding: 6px 12px !important;
+    background: #A162F7;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    display: inline;
+    margin-left: 60%;
+}
+
+.insights .third .table {
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    width: 100% !important;
+}
+
+.insights .third .table tr,
+.insights .third .table tbody,
+.insights .third .table td,
+.insights .third .table tfoot,
+.insights .third .table th,
+.insights .third .table thead {
+    border-color: #F3F3F3 !important;
+}
+
+.insights .third .table thead {
+    color: #72767C;
+    font-size: 14px;
+}
+
+.insights .third tbody {
+    color: #242731;
+    font-size: 13px;
+}

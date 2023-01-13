@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Dashborad car</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/booking.css">
+</head>
+
+<body>
+    <!-- start dashboard left -->
+    <div class="leftSide">
+        <div class="content">
+            <!-- logo -->
+            <div class="top">
+                <div class="img">
+                    <img src="../images/logo.png" alt="logo">
+                </div>
+                <h2>Motiv</h2>
+            </div>
+            <!-- top dashboard left -->
+            <div class="sidebar">
+                <a href="../pages/dashboard.html" onclick="addActiveToDashboard(event)">
+                    <img src="../images/dashboard icon.png" alt="dashboard icon">
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="assets.html" onclick="addActiveToDashboard(event)">
+                    <img src="../images/assets.png" alt="dashboard icon">
+                    <h3>Assets</h3>
+                </a>
+                <a href="#" onclick="addActiveToDashboard(event)" class="active">
+                    <img src="../images/booking.png" alt="dashboard icon">
+                    <h3>Booking</h3>
+                </a>
+                <a href="#" onclick="addActiveToDashboard(event)">
+                    <img src="../images/sell cars.png" alt="dashboard icon">
+                    <h3>Sell Cars</h3>
+                </a>
+                <a href="#" onclick="addActiveToDashboard(event)">
+                    <img src="../images/buy car.png" alt="dashboard icon">
+                    <h3>Buy Cars</h3>
+                </a>
+                <a href="#" onclick="addActiveToDashboard(event)">
+                    <img src="../images/services.png" alt="dashboard icon">
+                    <h3>Services</h3>
+                </a>
+                <a href="#" onclick="addActiveToDashboard(event)">
+                    <img src="../images/calender.png" alt="dashboard icon">
+                    <h3>Calender</h3>
+                </a>
+                <a href="#" onclick="addActiveToDashboard(event)">
+                    <img src="../images/message.png" alt="dashboard icon">
+                    <h3>Messages</h3>
+                </a>
+            </div>
+            <!-- bottom dashboard left -->
+            <div class="bottom">
+                <a href="#" onclick="addActiveToDashboard(event)">
+                    <img src="../images/setting.png" alt="dashboard icon">
+                    <h3>Setting</h3>
+                </a>
+                <a href="../index.html" onclick="addActiveToDashboard(event)">
+                    <img src="../images/logout.png" alt="dashboard icon">
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <!-- end dashboard left -->
+
+    <!-- start top dashboard search + account-->
+    <div class="startTop">
+        <!--search-->
+        <div class="search">
+            <input type="search" name="search" id="search" placeholder="search or type">
+            <img src="../images/search.png" alt="search">
+        </div>
+        <!-- account-->
+        <div class="account">
+            <a class="noti" href="#">
+                <img src="../images/notification.png" alt="noti">
+                <span></span>
+            </a>
+            <a class="img" href="#">
+                <img src="../images/person.png" alt="person">
+            </a>
+        </div>
+    </div>
+    <!-- end top dashboard search + account-->
+    <!-- start insight dashboard -->
+    <div class="insights">
+        <h3 class="text-start mb-5">Booking</h3>
+        <div class="row">
+            <div class="col-2">
+                <select class="form-select">
+                    <option selected>New</option>
+                    <option value="1">Old</option>
+                </select>
+            </div>
+            <div class="col-2">
+                <select class="form-select">
+                    <option selected>Toyota</option>
+                    <option value="1">Kia</option>
+                </select>
+            </div>
+            <div class="col-1 offset-6">
+                <div class="image">
+                    <img src="BookingImage/Line1.png" alt="fav">
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="image colored">
+                    <img src="BookingImage/Line.png" alt="fav">
+                </div>
+            </div>
+        </div>
+        <!-- start group of car -->
+        <div class="car mt-4">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card text-start ">
+                        <div class="row">
+                            <div class="col-10">
+                                <h5>PorShe 718 Cayman S
+                                </h5>
+                                <p>Coupe</p>
+                            </div>
+                            <div class="col-2">
+                                <div class="fav">
+                                    <img src="/pages/BookingImage/notfav.png" alt="...">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class=" card-body ">
+                            <div class="carimg mb-4"><img src="BookingImage/car.png" alt="..."></div>
+                            <div class="row">
+                                <div class="col-1">
+                                    <img src="BookingImage/user.png" alt="...">
+                                </div>
+                                <div class="col-1">
+                                    <p>4</p>
+                                </div>
+                                <div class="col-1 vector"><img src="BookingImage/Vector.png" alt="..."></div>
+                                <div class="col-4">
+                                    <h2>Manual</h2>
+                                </div>
+                                <div class="col-3 offset-1">
+                                    <p>$400<span>/d</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card text-start ">
+                        <div class="row">
+                            <div class="col-10">
+                                <h5>PorShe 718 Cayman S
+                                </h5>
+                                <p>Coupe</p>
+                            </div>
+                            <div class="col-2">
+                                <div class="fav">
+                                    <img src="/pages/BookingImage/fav.png" alt="...">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class=" card-body ">
+                            <div class="carimg mb-4"><img src="BookingImage/car.png" alt="..."></div>
+                            <div class="row">
+                                <div class="col-1">
+                                    <img src="BookingImage/user.png" alt="...">
+                                </div>
+                                <div class="col-1">
+                                    <p>4</p>
+                                </div>
+                                <div class="col-1 vector"><img src="BookingImage/Vector.png" alt="..."></div>
+                                <div class="col-4">
+                                    <h2>Manual</h2>
+                                </div>
+                                <div class="col-3 offset-1">
+                                    <p>$400<span>/d</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card text-start ">
+                        <div class="row">
+                            <div class="col-10">
+                                <h5>PorShe 718 Cayman S
+                                </h5>
+                                <p>Coupe</p>
+                            </div>
+                            <div class="col-2">
+                                <div class="fav">
+                                    <img src="/pages/BookingImage/notfav.png" alt="...">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class=" card-body ">
+                            <div class="carimg mb-4"><img src="BookingImage/car.png" alt="..."></div>
+                            <div class="row">
+                                <div class="col-1">
+                                    <img src="BookingImage/user.png" alt="...">
+                                </div>
+                                <div class="col-1">
+                                    <p>4</p>
+                                </div>
+                                <div class="col-1 vector"><img src="BookingImage/Vector.png" alt="..."></div>
+                                <div class="col-4">
+                                    <h2>Manual</h2>
+                                </div>
+                                <div class="col-3 offset-1">
+                                    <p>$400<span>/d</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- second row  -->
+            <div class="row mt-2">
+                <div class="col-4">
+                    <div class="card text-start ">
+                        <div class="row">
+                            <div class="col-10">
+                                <h5>PorShe 718 Cayman S
+                                </h5>
+                                <p>Coupe</p>
+                            </div>
+                            <div class="col-2">
+                                <div class="fav">
+                                    <img src="/pages/BookingImage/notfav.png" alt="...">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class=" card-body ">
+                            <div class="carimg mb-4"><img src="BookingImage/car.png" alt="..."></div>
+                            <div class="row">
+                                <div class="col-1">
+                                    <img src="BookingImage/user.png" alt="...">
+                                </div>
+                                <div class="col-1">
+                                    <p>4</p>
+                                </div>
+                                <div class="col-1 vector"><img src="BookingImage/Vector.png" alt="..."></div>
+                                <div class="col-4">
+                                    <h2>Manual</h2>
+                                </div>
+                                <div class="col-3 offset-1">
+                                    <p>$400<span>/d</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card text-start ">
+                        <div class="row">
+                            <div class="col-10">
+                                <h5>PorShe 718 Cayman S
+                                </h5>
+                                <p>Coupe</p>
+                            </div>
+                            <div class="col-2">
+                                <div class="fav">
+                                    <img src="/pages/BookingImage/notfav.png" alt="...">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class=" card-body ">
+                            <div class="carimg mb-4"><img src="BookingImage/car.png" alt="..."></div>
+                            <div class="row">
+                                <div class="col-1">
+                                    <img src="BookingImage/user.png" alt="...">
+                                </div>
+                                <div class="col-1">
+                                    <p>4</p>
+                                </div>
+                                <div class="col-1 vector"><img src="BookingImage/Vector.png" alt="..."></div>
+                                <div class="col-4">
+                                    <h2>Manual</h2>
+                                </div>
+                                <div class="col-3 offset-1">
+                                    <p>$400<span>/d</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card text-start ">
+                        <div class="row">
+                            <div class="col-10">
+                                <h5>PorShe 718 Cayman S
+                                </h5>
+                                <p>Coupe</p>
+                            </div>
+                            <div class="col-2">
+                                <div class="fav">
+                                    <img src="/pages/BookingImage/notfav.png" alt="...">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class=" card-body ">
+                            <div class="carimg mb-4"><img src="BookingImage/car.png" alt="..."></div>
+                            <div class="row">
+                                <div class="col-1">
+                                    <img src="BookingImage/user.png" alt="...">
+                                </div>
+                                <div class="col-1">
+                                    <p>4</p>
+                                </div>
+                                <div class="col-1 vector"><img src="BookingImage/Vector.png" alt="..."></div>
+                                <div class="col-4">
+                                    <h2>Manual</h2>
+                                </div>
+                                <div class="col-3 offset-1">
+                                    <p>$400<span>/d</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- third row  -->
+            <div class="row mt-2">
+                <div class="col-4">
+                    <div class="card text-start ">
+                        <div class="row">
+                            <div class="col-10">
+                                <h5>PorShe 718 Cayman S
+                                </h5>
+                                <p>Coupe</p>
+                            </div>
+                            <div class="col-2">
+                                <div class="fav">
+                                    <img src="/pages/BookingImage/notfav.png" alt="...">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class=" card-body ">
+                            <div class="carimg mb-4"><img src="BookingImage/car.png" alt="..."></div>
+                            <div class="row">
+                                <div class="col-1">
+                                    <img src="BookingImage/user.png" alt="...">
+                                </div>
+                                <div class="col-1">
+                                    <p>4</p>
+                                </div>
+                                <div class="col-1 vector"><img src="BookingImage/Vector.png" alt="..."></div>
+                                <div class="col-4">
+                                    <h2>Manual</h2>
+                                </div>
+                                <div class="col-3 offset-1">
+                                    <p>$400<span>/d</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card text-start ">
+                        <div class="row">
+                            <div class="col-10">
+                                <h5>PorShe 718 Cayman S
+                                </h5>
+                                <p>Coupe</p>
+                            </div>
+                            <div class="col-2">
+                                <div class="fav">
+                                    <img src="/pages/BookingImage/notfav.png" alt="...">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class=" card-body ">
+                            <div class="carimg mb-4"><img src="BookingImage/car.png" alt="..."></div>
+                            <div class="row">
+                                <div class="col-1">
+                                    <img src="BookingImage/user.png" alt="...">
+                                </div>
+                                <div class="col-1">
+                                    <p>4</p>
+                                </div>
+                                <div class="col-1 vector"><img src="BookingImage/Vector.png" alt="..."></div>
+                                <div class="col-4">
+                                    <h2>Manual</h2>
+                                </div>
+                                <div class="col-3 offset-1">
+                                    <p>$400<span>/d</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card text-start ">
+                        <div class="row">
+                            <div class="col-10">
+                                <h5>PorShe 718 Cayman S
+                                </h5>
+                                <p>Coupe</p>
+                            </div>
+                            <div class="col-2">
+                                <div class="fav">
+                                    <img src="/pages/BookingImage/notfav.png" alt="...">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class=" card-body ">
+                            <div class="carimg mb-4"><img src="BookingImage/car.png" alt="..."></div>
+                            <div class="row">
+                                <div class="col-1">
+                                    <img src="BookingImage/user.png" alt="...">
+                                </div>
+                                <div class="col-1">
+                                    <p>4</p>
+                                </div>
+                                <div class="col-1 vector"><img src="BookingImage/Vector.png" alt="..."></div>
+                                <div class="col-4">
+                                    <h2>Manual</h2>
+                                </div>
+                                <div class="col-3 offset-1">
+                                    <p>$400<span>/d</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- end insight dashboard -->
+    <script src=" https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js " integrity=" sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p " crossorigin=" anonymous "></script>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js " integrity=" sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF " crossorigin=" anonymous "></script>
+</body>
+
+</html>

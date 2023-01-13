@@ -1,0 +1,68 @@
+.insights select {
+    border-radius: 22.5px;
+    -webkit-border-radius: 22.5px;
+    -moz-border-radius: 22.5px;
+    -ms-border-radius: 22.5px;
+    -o-border-radius: 22.5px;
+    border: none;
+}
+
+.insights .image {
+    padding: 10px;
+    width: 44px;
+    height: 44px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgb(147 144 144 / 20%);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    line-height: 1;
+}
+
+.insights .image.colored {
+    background-color: #A162F7;
+}
+
+
+/* start car card */
+
+.insights .car h5 {
+    font-size: 18px;
+    color: #242731;
+}
+
+.insights .car p {
+    font-size: 16px;
+    color: #72767C;
+}
+
+.insights .car .carimg img {
+    width: 100%;
+}
+
+.insights .car .card-body p {
+    line-height: 2;
+}
+
+.insights .car .card-body h2,
+.vector {
+    font-size: 12px;
+    color: #72767C;
+    line-height: 2.5;
+}
+
+.insights .car .col-3 p {
+    font-size: 12px;
+    color: #242731;
+    line-height: 2.5;
+}
+
+.insights .car p span {
+    color: #72767C;
+}
+
+.insights .card {
+    padding: 20px 14px 0px 14px !important;
+}

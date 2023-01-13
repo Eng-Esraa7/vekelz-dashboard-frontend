@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Dashborad car</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/assets.css">
+</head>
+
+<body>
+    <!-- start dashboard left -->
+    <div class="leftSide">
+        <div class="content">
+            <!-- logo -->
+            <div class="top">
+                <div class="img">
+                    <img src="../images/logo.png" alt="logo">
+                </div>
+                <h2>Motiv</h2>
+            </div>
+            <!-- top dashboard left -->
+            <div class="sidebar">
+                <a href="../pages/dashboard.html" onclick="addActiveToDashboard(event)">
+                    <img src="../images/dashboard icon.png" alt="dashboard icon">
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#" class="active" onclick="addActiveToDashboard(event)">
+                    <img src="../images/assets.png" alt="dashboard icon">
+                    <h3>Assets</h3>
+                </a>
+                <a href="../pages/Booking.html" onclick="addActiveToDashboard(event)">
+                    <img src="../images/booking.png" alt="dashboard icon">
+                    <h3>Booking</h3>
+                </a>
+                <a href="#" onclick="addActiveToDashboard(event)">
+                    <img src="../images/sell cars.png" alt="dashboard icon">
+                    <h3>Sell Cars</h3>
+                </a>
+                <a href="#" onclick="addActiveToDashboard(event)">
+                    <img src="../images/buy car.png" alt="dashboard icon">
+                    <h3>Buy Cars</h3>
+                </a>
+                <a href="#" onclick="addActiveToDashboard(event)">
+                    <img src="../images/services.png" alt="dashboard icon">
+                    <h3>Services</h3>
+                </a>
+                <a href="#" onclick="addActiveToDashboard(event)">
+                    <img src="../images/calender.png" alt="dashboard icon">
+                    <h3>Calender</h3>
+                </a>
+                <a href="#" onclick="addActiveToDashboard(event)">
+                    <img src="../images/message.png" alt="dashboard icon">
+                    <h3>Messages</h3>
+                </a>
+            </div>
+            <!-- bottom dashboard left -->
+            <div class="bottom">
+                <a href="#" onclick="addActiveToDashboard(event)">
+                    <img src="../images/setting.png" alt="dashboard icon">
+                    <h3>Setting</h3>
+                </a>
+                <a href="../index.html" onclick="addActiveToDashboard(event)">
+                    <img src="../images/logout.png" alt="dashboard icon">
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <!-- end dashboard left -->
+
+    <!-- start top dashboard search + account-->
+    <div class="startTop">
+        <!--search-->
+        <div class="search">
+            <input type="search" name="search" id="search" placeholder="search or type">
+            <img src="../images/search.png" alt="search">
+        </div>
+        <!-- account-->
+        <div class="account">
+            <a class="noti" href="#">
+                <img src="../images/notification.png" alt="noti">
+                <span></span>
+            </a>
+            <a class="img" href="#">
+                <img src="../images/person.png" alt="person">
+            </a>
+        </div>
+    </div>
+    <!-- end top dashboard search + account-->
+    <!-- start insight dashboard -->
+    <div class="insights">
+        <div class="c">
+            <h3 class="text-start mb-5">Assets</h3>
+
+            <div class="row mt-2">
+                <!-- left section  -->
+                <div class="col-4">
+                    <div class="leftside">
+                        <div class="car">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h6>Fuel Usage</h6>
+                                </div>
+                                <div class="col-6">
+                                    <h6>Km Driven</h6>
+                                </div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-6">
+                                    <h3>2903.89 Ltr</h3>
+                                </div>
+                                <div class="col-6">
+                                    <h3>2903.89 Ltr</h3>
+                                </div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-6">
+                                    <h6>Total Cost</h6>
+                                </div>
+                                <div class="col-6">
+                                    <h6>Top Speed</h6>
+                                </div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-6">
+                                    <h3>$3,00,290.00</h3>
+                                </div>
+                                <div class="col-6">
+                                    <h3>$5.2K</h3>
+                                </div>
+                            </div>
+                            <img src="assetsImage/car.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- right section  -->
+                <div class="col-8">
+                    <!-- first  -->
+                    <div class="first text-start">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class=" card p-3 ">
+                                    <h5>Activity <span>show All</span></h5>
+
+                                    <div class=" card-body ">
+                                        <img src="assetsImage/Frame 49.png" alt=" ... ">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- second  -->
+
+                        <div class=" second text-start ">
+                            <div class=" row ">
+                                <div class=" col-md-6 ">
+                                    <div class=" card p-3 ">
+                                        <h5>Notices</h5>
+                                        <div class=" card-body ">
+                                            <div class="cont">
+                                                <div class="row">
+                                                    <div class="col-3">
+                                                        <div class="image">
+                                                            <img src="assetsImage/Vector.png" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <h4>Monday,6th April 2020</h4>
+                                                        <h5>Book For General Service</h5>
+                                                        <button class="btn complete mt-2 mb-4">Completed</button>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-3">
+                                                        <div class="image">
+                                                            <img src="assetsImage/Vector (1).png" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <h4>Thursday,24th October 2021</h4>
+                                                        <h5>Vehicle Market For Recall</h5>
+                                                        <button class="btn mt-2 me-4">14:07-21/11/2021</button>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-3">
+                                                        <div class="image">
+                                                            <img src="assetsImage/Vector (2).png" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <h4>Monday,13th Augest 2018</h4>
+                                                        <h5>Maintaince Completed, Collect</h5>
+                                                        <button class="btn mt-2 me-4">14:07-21/11/2021</button>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class=" col-md-6 ">
+                                    <div class=" card p-3 ">
+                                        <div class="row bord">
+                                            <div class="col-8">
+                                                <h1 class=" card-title ">Available Sensors</h1>
+                                            </div>
+                                            <div class="col-4 in">
+                                                <h2 class=" card-title ">Assets</h2>
+                                                <div class="imgCard">
+                                                    <img src="assetsImage/Rectangle.png" alt="...">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class=" card-body ">
+                                            <div class="row cololred">
+                                                <div class="col-10">
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked>
+                                                    <label class="form-check-label" for="defaultCheck1">Asset-Fuel
+                                                        Consumed(10)</label>
+                                                </div>
+                                                <div class="col-2">
+                                                    <img src="assetsImage/Vector (3).png" alt="">
+                                                </div>
+                                            </div>
+
+                                            <div class="row cololred">
+                                                <div class="col-10">
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                    <label class="form-check-label" for="defaultCheck1">Asset-Odometer(Km)</label>
+                                                </div>
+                                                <div class="col-2">
+                                                    <img src="assetsImage/Vector (3).png" alt="">
+                                                </div>
+                                            </div>
+
+                                            <div class="row cololred">
+                                                <div class="col-10">
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                    <label class="form-check-label" for="defaultCheck1">Runtime(Km)</label>
+                                                </div>
+                                                <div class="col-2">
+                                                    <img src="assetsImage/Vector (3).png" alt="">
+                                                </div>
+                                            </div>
+
+                                            <div class="row cololred">
+                                                <div class="col-10">
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                    <label class="form-check-label" for="defaultCheck1">Speed-Odometer(hr)</label>
+                                                </div>
+                                                <div class="col-2">
+                                                    <img src="assetsImage/Vector (3).png" alt="">
+                                                </div>
+                                            </div>
+
+                                            <div class="row cololred">
+                                                <div class="col-10">
+                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                    <label class="form-check-label" for="defaultCheck1">Tempreture(deg
+                                                        C)</label>
+                                                </div>
+                                                <div class="col-2">
+                                                    <img src="assetsImage/Vector (3).png" alt="">
+                                                </div>
+                                            </div>
+
+                                            <button class="btn color">See All</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- third  -->
+                            <div class=" third ">
+                                <div class=" row">
+                                    <div class=" col-12 ">
+                                        <div class="card p-3 ">
+                                            <h5>Reminder<span class="btn add">+ Add New</span>
+                                            </h5>
+                                            <div class=" card-body ">
+                                                <table class="table table-responsive">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Description</th>
+                                                            <th>Due</th>
+                                                            <th>Overdue</th>
+                                                            <th>Notify</th>
+                                                            <th>Status</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Urgent Safety Recall</td>
+                                                            <td>06/04/2022</td>
+                                                            <td>08/04/2022</td>
+                                                            <td>David Demo</td>
+                                                            <td>David Demo</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Urgent Safety Recall</td>
+                                                            <td>06/04/2022</td>
+                                                            <td>08/04/2022</td>
+                                                            <td>David Demo</td>
+                                                            <td>David Demo</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end insight dashboard -->
+                <script src=" https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js " integrity=" sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p " crossorigin=" anonymous "></script>
+                <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js " integrity=" sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF " crossorigin=" anonymous "></script>
+</body>
+
+</html>

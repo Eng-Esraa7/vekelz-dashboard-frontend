@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <title>Dashborad car</title>
+
+    <link rel="stylesheet" href="../css/account.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="start">Get's Started</h1>
+        <p class="lead signup">Don't have an account?<a href="pages/signUp.html"> Sign Up</a></p>
+        <div class="row">
+            <div class="col-3 offset-3">
+                <div class="btn google"> <img src="pages/img/Logo Google.png" alt="..."> Sign in with google</div>
+            </div>
+            <div class="col-3">
+                <div class="offset-3"></div>
+                <div class="btn facebook"> <img src="pages/img/facebook.png" alt="..."> Sign in with facebook</div>
+            </div>
+        </div>
+        <div class="line">
+            <div class="row">
+                <div class="col-5">
+                    <div class="l ll"></div>
+                </div>
+                <div class="col-1 or">Or</div>
+                <div class="col-5">
+                    <div class="l lll"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <form action="pages/dashboard.html">
+            <div class="card p-3">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" required>
+                    <span class="input-group-text eye" onclick="password_show_hide();"> <img
+                            src="pages/img/visibility_off_FILL0_wght400_GRAD0_opsz48.png" id="show_eye" alt="">
+                        <img src="pages/img/visibility_FILL0_wght400_GRAD0_opsz48.png" id="hide_eye" alt=""
+                            class="d-none">
+                    </span>
+                </div>
+            </div>
+            <div class="mb-3 form-check">
+                <div class="row">
+                    <div class="col-7">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                    </div>
+                    <div class="col-5">
+                        <a href="#" class="forget">Forget your password</a>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary d-block btnsub">Sign In</button>
+        </form>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="../index.js"></script>
+</body>
+
+</html>
