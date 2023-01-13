@@ -11,7 +11,7 @@
 
 # Dashboard
 
-<img src="./dashboard.png>
+<img src="./dashboard.png">
 
 # assets
 
